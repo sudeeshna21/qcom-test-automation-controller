@@ -32,7 +32,7 @@ QTAC is a software suite that enables users to control Qualcomm devices remotely
 ## Hardware Requirements
 
 **Required Hardware**:
-- Qualcomm approved debug board (FTDI or PSoC-based)
+- Qualcomm approved debug board (FTDI, Cypress PSoC5LP or Microchip PIC32CX SG41-based)
 - Qualcomm device to be controlled
 - USB Cables: Type B Micro-USB (Board to Host) & Type-C (Device to Host)
 
@@ -82,7 +82,7 @@ git clone https://github.com/qualcomm/qcom-test-automation-controller.git
 
 1. **Visual Studio**: Install **Desktop development with C++** and **.NET desktop development**.
    ![Desktop development with C++](./docs/resources/qtac-msvc-2022-requirements.png)
-2. **Qt**: Install Qt 6.9+ for **MSVC 2022 64-bit** and **Qt Serial Port** component.
+2. **Qt**: Install Qt 6.9+ for **MSVC 2022 64-bit**, **Qt Serial Port** and **Qt Multimedia** components.
    
 > [!NOTE]
 > Installation using Qt Online Installer will require users to create a Qt account.
