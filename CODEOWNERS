@@ -1,0 +1,17 @@
+# Copyright (c) Qualcomm Technologies, Inc. and/or its subsidiaries.
+# SPDX-License-Identifier: BSD-3-Clause
+
+# All changes: triage team reviews by default
+*                                   @qualcomm/qcom-test-automation-controller-triage
+
+# Critical governance and project files: maint team required
+CODEOWNERS                          @qualcomm/qcom-test-automation-controller-maint
+CHANGELOG.md                        @qualcomm/qcom-test-automation-controller-maint
+CODE-OF-CONDUCT.md                  @qualcomm/qcom-test-automation-controller-maint
+CONTRIBUTING.md                     @qualcomm/qcom-test-automation-controller-maint
+LICENSE                             @qualcomm/qcom-test-automation-controller-maint
+SECURITY.md                         @qualcomm/qcom-test-automation-controller-maint
+.github/                            @qualcomm/qcom-test-automation-controller-maint
+
+# CI/CD workflow: biswajee + maint team (overrides .github/ rule above)
+.github/workflows/build.yml         @biswajee @qualcomm/qcom-test-automation-controller-maint
